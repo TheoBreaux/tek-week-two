@@ -1,0 +1,156 @@
+body {
+  font-family: monospace;
+}
+
+.resume-container {
+  padding: 20px;
+  background-color: rgb(49, 47, 47);
+}
+
+#details {
+  display: flex;
+  justify-content: space-between;
+}
+
+#avatar-and-name {
+  display: flex;
+}
+
+.headshot-container {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border: 3px solid grey;
+  border-radius: 5px;
+}
+
+.headshot {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.name-title {
+  margin-top: -10px;
+  margin-left: 10px;
+}
+
+h1 {
+  margin-bottom: 0;
+  color: white;
+}
+
+.title {
+  color: #86c5d8;
+  margin-top: 0;
+}
+
+pre {
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: rgb(165, 162, 162); 
+}
+
+
+/* .contact-info p {
+  font-size: 0.75em;
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: rgb(165, 162, 162);
+} */
+
+.contact-props {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #86c5d8;
+}
+
+.objective-statement {
+  color: rgb(165, 162, 162);
+  margin-bottom: 50px;
+  margin-top: 30px;
+  padding-bottom: 50px;
+  border-bottom: 2px solid rgb(165, 162, 162);
+}
+
+.employment {
+  display: flex;
+  background-color: #424242;
+  margin-top: 60px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.down-arrow {
+  padding: 10px;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-right: 5px;
+  border-radius: 5px;
+  height: auto;
+  color: white;
+  background-color: #3190ad;
+  font-weight: bold;
+}
+
+.section-title {
+  color: white;
+  font-weight: bold;
+  font-size: 1.25em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0;
+}
+
+.job-summary {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.right-arrow {
+  background-color: #3190ad;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  margin-right: 5px;
+  margin-bottom: 15px;
+}
+
+.company-name {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.time-frame {
+  color: rgb(165, 162, 162);
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: auto;
+}
+
+.job-title {
+  color: rgb(165, 162, 162);
+  font-size: 15px;
+  margin-top: 0;
+}
+
+.job-description {
+margin-top: 0;
+  color: rgb(165, 162, 162);
+}
+
+.education {
+    background-color: #7EBD01;
+}

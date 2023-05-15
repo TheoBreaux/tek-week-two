@@ -10,6 +10,8 @@
         height: 400px;
         width: 400px;
         border: 1px solid;
+        flex-wrap: wrap;
+        align-items: center;
       }
       .boxes {
         border: 0.1px solid;
@@ -21,12 +23,18 @@
 
       #box1 {
         background-color: green;
+        order: 2;
+        flex-grow: 1;
       }
       #box2 {
         background-color: yellow;
+        order: 3;
+        flex-grow: 1;
       }
       #box3 {
         background-color: pink;
+        order: 1;
+        flex-grow: 1;
       }
       #box4 {
         background-color: blue;
@@ -53,8 +61,8 @@
       <div class="boxes" id="box1">1</div>
       <div class="boxes" id="box2">2</div>
       <div class="boxes" id="box3">3</div>
-      <!-- <div class="boxes" id="box4">4</div>
-    <div class="boxes" id="box5">5</div>
+      <!-- <div class="boxes" id="box4">4</div> -->
+      <!-- <div class="boxes" id="box5">5</div>
     <div class="boxes" id="box6">6</div>
     <div class="boxes" id="box7">7</div>
     <div class="boxes" id="box8">8</div> -->
