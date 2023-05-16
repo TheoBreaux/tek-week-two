@@ -55,7 +55,7 @@ header {
   margin-left: 10px;
 }
 
-h1 {
+.name {
   margin-bottom: 0;
   color: white;
 }
@@ -315,4 +315,40 @@ ul li:nth-child(5)::marker {
 
 .sp-circle {
   background-color: goldenrod;
+}
+
+@media only screen and (max-width: 720px) {
+  .headshot-container {
+    display: none;
+  }
+
+  #details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header {
+    padding: 0;
+  }
+
+  #avatar-and-name {
+    float: left;
+    margin-right: auto;
+  }
+
+  .resume-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .employment-education,
+  .sidebar {
+    margin: auto;
+    width: 100%;
+  }
+
+  body {
+    min-width: 440px;
+  }
 }
